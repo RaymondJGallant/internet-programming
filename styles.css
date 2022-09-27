@@ -1,3 +1,64 @@
-h1{
-    color:blue;
+/**{
+margin:0;
+padding:0;    
 }
+*/
+
+
+h1{
+    color:green;
+} 
+h2{
+    color: red;}
+body{
+    background-color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:normal;
+    /*same as abbove*/
+    font: normal 16px Arial,Helvetica,sans-serif;
+    line-height:1.6em;
+    margin:0;
+}  
+/* F*** inline CSS*/
+/* class vs id 
+id for something unique
+class for something used repeatedly
+donot repeat id's*/
+/*to target a class use a "."*/
+.box-1{
+    background-color:#333;
+    color:#fff;
+    border-right:5px red solid;
+    border-left:5px blue solid; 
+    border-top:5px red solid;
+    border-bottom:5px red solid;
+    border-bottom-width: 10px;
+    border-top-style:dotted;
+    padding:20px;
+    margin:20px;
+
+}
+.box-1 h1{
+    font-family:Tahoma;
+    font-weight:800;
+    font-style:italic;
+    text-decoration:underline;
+    text-transform:uppercase;
+    letter-spacing: 0.2em;
+    word-spacing:1em;
+    text-align:center;
+}
+.box-2
+border:3px dotted #ccc ;
+padding:20px;
+margin;20px 0;
+
+
+
+.container{
+    width:80%;
+    margin:auto;
+}
+
+
