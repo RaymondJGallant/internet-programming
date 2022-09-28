@@ -61,10 +61,53 @@ margin;20px 0;
     width:80%;
     margin:auto;
 }
+categories h2{
+    text-align:center;
+}
 .categories ul{
     border:1px #ccc solid;
     padding:10px;
     border-radius:15px;
 }
+a{
+    text-decoration: none;
+    color :#000;
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:green;
 
+}
+a:visited{
+    color:yellow;
 
+}
+ .categories{
+    padding-bottom:6px;
+    padding-left: 20px ;
+    border-bottom:dotted 1px #333;
+    list-style-image: url('../imagess/check.png');
+ }
+.my-form{
+    padding:20px;
+
+}
+.form-group{
+    padding-bottom:15px;
+    
+}
+.my-form ,.form-group{
+    padding-bottom: 15px;
+
+}
+.my-form label{
+    display:block;
+}
+
+.my-form input{
+    padding:8px;
+    width:100%;
+    
+}
