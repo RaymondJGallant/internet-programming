@@ -56,9 +56,15 @@ margin;20px 0;
 
 
 
+
 .container{
     width:80%;
     margin:auto;
+}
+.categories ul{
+    border:1px #ccc solid;
+    padding:10px;
+    border-radius:15px;
 }
 
 
