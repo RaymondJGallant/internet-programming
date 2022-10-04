@@ -64,11 +64,11 @@ donot repeat id's*/
     word-spacing:1em;
     text-align:center;
 }
-.box-2
+.box-2{
 border:3px dotted #ccc ;
 padding:20px;
-margin;20px 0;
-
+margin:20px 0;
+}
 
 
 
@@ -92,10 +92,8 @@ a:active{
     color:green;
 
 }
-a:visited{
+/*a:visited{}*/
     
-
-}
  .categories{
     padding-bottom:6px;
     padding-left: 20px ;
