@@ -73,7 +73,7 @@ margin:20px 0;
 
 
 
-categories h2{
+.categories h2{
     text-align:center;
 }
 .categories ul{
@@ -98,7 +98,7 @@ a:active{
     padding-bottom:6px;
     padding-left: 20px ;
     border-bottom:dotted 1px #333;
-    list-style-image: url('../imagess/check.png');
+    list-style-image: url('../internet-programming/check-mark.png');
  }
 .my-form{
     padding:20px;
