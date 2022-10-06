@@ -30,8 +30,53 @@ body{
     color:#fff;
     text-decoration: none;
     font-size:18px;
-    padding:right:15px;
+    padding:right 15px;
 }
     #showcase{
-        background-image:url('../')
+        background-image:url('../internet-programming/bgimage.jpg');
+        background-position:center right;
+        min-height:300px;
+        margin-bottom:30px;
+        text-align: center;
+        color:#f4f4f4;
+    }
+        
+    #showcase h1{
+        color: #745;
+        font-size:25px;
+        line-height:1.6em;
+        padding-top:30px;
+    }
+    #main{
+        float:left;
+        width:70%;
+        padding:0 30px;
+        box-sizing: border-box;
+    }
+    #sidebar{
+        float:right;
+        width:30;
+        background:#333;
+        color:#fff;
+        padding:10px
+        box-sizing: border-box;
+    }
+    #main-footer{
+        background:darkgrey;
+        color:white;
+        text-align-center;
+        padding:20px;
+        margin-top:40px;
+    }
+    @media(max-width:600px;){
+        #main{
+            width:100%;
+            float:none;
+
+        }
+        #sidebar{
+            width:100%;
+            float:none;
+            
+    }
     }
